@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+.img {
+    height: 25px;
+    width: 25px;
+}
+
+.img2 {
+    height: 30px;
+    width: 30px;
+}
+
+.invert {
+    filter: invert(1);
+}
+
+* {
+    font-family: "SUSE", sans-serif;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
+@media(max-width:1187px){
+    .img2{
+        width: 20px;
+        height: 20px;
+    }
+}
